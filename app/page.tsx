@@ -1,4 +1,4 @@
-import { ArrowUpRight, Github, Mail, Smartphone, Code2, Layers3 } from "lucide-react";
+import { ArrowUpRight, Mail, Smartphone, Code2, Layers3, Sparkles } from "lucide-react";
 
 const skills = [
   "Kotlin", "Jetpack Compose", "Coroutines", "Flow", "MVI", "MVVM",
@@ -63,8 +63,9 @@ export default function Home() {
               <a className="secondary" href="mailto:omnianabil1920@gmail.com">Get in touch <Mail size={17}/></a>
             </div>
             <div className="socials">
-              <a href="https://github.com/Omnia-97" target="_blank"><Github size={19}/> GitHub</a>
-              <a href="https://www.linkedin.com/in/omnia-nabil-j2510k24t/" target="_blank"><b>in</b> LinkedIn</a>
+              <a href="https://github.com/Omnia-97" target="_blank">GitHub</a>
+              <a href="https://www.linkedin.com/in/omnia-nabil-j2510k24t/" target="_blank">LinkedIn</a>
+
             </div>
           </div>
 
