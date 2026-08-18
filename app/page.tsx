@@ -41,6 +41,12 @@ const skillGroups = [
       "Clean Architecture",
       "SOLID Principles",
       "Dagger-Hilt",
+      "Dart",
+      "Flutter",
+      "Firebase",
+      "Provider",
+      "Cubit",
+      "Bloc",
     ],
   },
   {
@@ -87,10 +93,8 @@ export default function Home() {
           <a href="#skills">Skills</a>
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
-          {/* CHECK: resume.pdf must exist in /public */}
           <a href="/resume.pdf" target="_blank">Resume</a>
         </div>
-        {/* CHECK: email address correct? */}
         <a className="navCta" href="mailto:omnianabil1920@gmail.com">Let&apos;s talk →</a>
       </nav>
 
@@ -103,20 +107,15 @@ export default function Home() {
               Building Android <span className="accent">experiences</span> that feel right.
             </h1>
             <p className="lead">
-              I&apos;m Omnia Nabil. I build production Android apps with Kotlin and Jetpack
-              Compose — from booking flows to payments — with architecture that holds up as
-              products grow.
+              I&apos;m Omnia Nabil. Mobile Developer with hands-on experience in Android and Flutter development. Skilled in Java, Kotlin, XML, Jetpack Compose, MVVM, MVI, Clean Architecture, and modern mobile technologies. Passionate about building high-quality applications, solving real-world problems, and continuously learning new technologies.
             </p>
             <div className="heroActions">
               <a className="btn btnPrimary" href="#work">View my work →</a>
               <a className="btn btnGhost" href="mailto:omnianabil1920@gmail.com">Get in touch</a>
-              {/* CHECK: resume.pdf must exist in /public */}
               <a className="btn btnGhost" href="/resume.pdf" target="_blank">Download CV ↓</a>
             </div>
             <div className="socials">
-              {/* CHECK: GitHub username correct? */}
               <a href="https://github.com/Omnia-97" target="_blank">GitHub</a>
-              {/* CHECK: LinkedIn URL correct? */}
               <a href="https://www.linkedin.com/in/omnia-nabil-j2510k24t/" target="_blank">LinkedIn</a>
             </div>
           </div>
@@ -227,7 +226,6 @@ export default function Home() {
                   <span key={t}>{t}</span>
                 ))}
               </div>
-              {/* CHECK: Play Store link correct? */}
               <a className="caseLink" href="https://play.google.com/store/apps/details?id=com.innovitics.app.shift&hl=en" target="_blank">
                 View on Play Store →
               </a>
@@ -284,8 +282,7 @@ export default function Home() {
                   <span key={t}>{t}</span>
                 ))}
               </div>
-              {/* CHECK: replace with the real News App repo link (currently your GitHub profile) */}
-              <a className="caseLink" href="https://github.com/Omnia-97" target="_blank">
+              <a className="caseLink" href="https://github.com/Omnia-97/NewsAppAndroid" target="_blank">
                 View on GitHub →
               </a>
             </div>
@@ -332,8 +329,7 @@ export default function Home() {
                   <span key={t}>{t}</span>
                 ))}
               </div>
-              {/* CHECK: replace with the real DR.Scan repo link (currently your GitHub profile) */}
-              <a className="caseLink" href="https://github.com/Omnia-97" target="_blank">
+              <a className="caseLink" href="https://github.com/Omnia-97/dr_scan_project_graduation" target="_blank">
                 View on GitHub →
               </a>
             </div>
@@ -449,7 +445,6 @@ export default function Home() {
         <h2>
           Let&apos;s make something <span className="accent">great.</span>
         </h2>
-        {/* CHECK: email address correct? */}
         <a className="contactMail" href="mailto:omnianabil1920@gmail.com">
           omnianabil1920@gmail.com →
         </a>
